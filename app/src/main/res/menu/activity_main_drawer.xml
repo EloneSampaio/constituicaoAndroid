@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+
+
+        <item
+            android:id="@+id/nav_principal"
+            android:icon="@drawable/ic_collections_bookmark_black_24dp"
+            android:title="@string/action_principal" />
+        <item
+            android:id="@+id/nav_artigo"
+            android:icon="@drawable/ic_description_black_24dp"
+            android:title="@string/action_artigos" />
+
+
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/action_settings" />
+
+    </group>
+
+    <item android:title="Fale Conosco">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/action_compartilhar" />
+
+        </menu>
+    </item>
+
+</menu>

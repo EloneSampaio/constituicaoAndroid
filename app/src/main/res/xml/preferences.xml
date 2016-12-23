@@ -1,0 +1,16 @@
+<android.support.v7.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <com.codevscolor.materialpreference.widget.MaterialPreferenceCategory
+        android:title="Definir Tema">
+    <ListPreference
+        android:defaultValue="Azul"
+        android:entryValues="@array/array_themes_value"
+        android:entries="@array/array_themes_name"
+        android:summary="Seleciona um tema"
+        android:title="Definir Tema"
+        android:key="@string/preference_cor">
+
+    </ListPreference>
+</com.codevscolor.materialpreference.widget.MaterialPreferenceCategory>
+</android.support.v7.preference.PreferenceScreen>

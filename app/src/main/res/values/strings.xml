@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Constituição Angolana</string>
+
+    <string name="title_activity_splash_screen">Tela Inicial</string>
+    <string name="forksystem">Forksystem</string>
+
+    <string name="Museo300" translatable="false">fonts/museo300-regular.otf</string>
+    <string name="Museo700" translatable="false">fonts/museo700-regular.otf</string>
+
+    <string name="navigation_drawer_open">Abrir Menu</string>
+    <string name="navigation_drawer_close">Fechar Menu</string>
+
+    <string name="action_settings">Configurações</string>
+     <string name="action_artigos">Artigos</string>
+    <string name="action_compartilhar">Encontre-nos</string>
+    <string name="action_sair">Sair</string>
+
+    <string name="action_principal">preâmbulo</string>
+
+    <string name="action_copiar">copiar</string>
+    <string name="action_partilhar">partilhar</string>
+    <string name="action_favorito">Favoritos</string>
+    <string name="text_favorito">adicionar aos favoritos</string>
+    <string name="action_cor">mudar cor</string>
+    <string name="send_to">Partilhar Com</string>
+
+
+    <string name="categoria_principal">Configuração de cores</string>
+    <string name="artigo">Artigo</string>
+    <string name="salvar">Salvar</string>
+    <string name="titulo">Titulo</string>
+    <string name="autor">Elone Sampaio</string>
+    <string name="sigame">Siga-me nas redes socias</string>
+    <string name="facebook">Facebook</string>
+    <string name="preference_cor">cor</string>
+      <string name="action_cabecario_principal">-----------</string>
+    <string name="email">elonesampaio@gmail.com</string>
+    <string name="share_mensagem">Clique no botão e fala-me aonde melhorar.</string>
+    <string name="developer">Desenvolvido Por:</string>
+    <string name="compartilhar_barra">Compartilhar</string>
+
+
+</resources>
+
+
+
