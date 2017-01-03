@@ -2,7 +2,9 @@ package com.forksystem.constituicao.fragment;
 
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.annotation.Nullable;
+import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -17,6 +19,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.SearchView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.forksystem.constituicao.MainActivity;
 import com.forksystem.constituicao.R;
@@ -117,13 +120,22 @@ public class ArtigoFragment extends Fragment implements SearchView.OnQueryTextLi
 
                 TextView textView= (TextView) view.findViewById(R.id.artigo_numero);
 
-                ArrayList<Epigrafo> epigrafos= (ArrayList<Epigrafo>) epigrafoDao.getAllById(Integer.valueOf(textView.getText().toString()));
+                ArrayList<Epigrafo> epigrafos= (ArrayList<Epigrafo>) epigrafoDao.getAllById(Integer.valueOf(textView.getText().toString().replaceAll("[^0-9]","")));
 
                 bundle.putSerializable("epigrafos",epigrafos);
 
-                    Fragment fragment= new DetalheFragment();
+                   final  Fragment fragment= new DetalheFragment();
                      fragment.setArguments(bundle);
-                     MainActivity.changeFragment(fragment,true);
+                Toast.makeText(getActivity(),"Pressiona o item para ver mais opções",Toast.LENGTH_LONG).show();
+
+                (new Handler())
+                        .postDelayed(
+                                new Runnable() {
+                                    public void run() {
+                                        MainActivity.changeFragment(fragment,true);
+                                    }
+                                }, 1000);
+
              }
 
            @Override

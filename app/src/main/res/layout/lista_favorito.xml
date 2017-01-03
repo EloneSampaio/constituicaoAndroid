@@ -23,7 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/conteudo_favorito"
-             android:textSize="20sp"
+             android:textSize="18sp"
             style="@style/DetalheFontStyle"
             android:textColor="@color/md_black_1000_75"/>
 

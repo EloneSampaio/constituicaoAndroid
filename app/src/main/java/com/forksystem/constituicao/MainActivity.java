@@ -198,6 +198,7 @@ public class MainActivity extends AppCompatActivity {
                 changeFragment(new ShareFragment(),false);
                 break;
             case 6: finish();
+                finish();
                 System.exit(0);
                 break;
 

@@ -37,7 +37,7 @@ public  class ArtigoAdapter extends InfinityAdapter<Artigo,ArtigoAdapter.ViewHol
     public void onBindContentViewHolder(ViewHolderConstituicao holder, int position) {
 
         ((TextView) holder.artigoBinding.tituloArtigo).setText(getContentItem(position).getTitulo());
-        ((TextView) holder.artigoBinding.artigoNumero).setText(getContentItem(position).getArtigo()+"");
+        ((TextView) holder.artigoBinding.artigoNumero).setText(getContentItem(position).getArtigo()+" - ");
     }
 
     @Override

@@ -24,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
              android:id="@+id/principal_titulo"
-             android:textSize="21sp"
+             android:textSize="18sp"
              android:lines="195"
           style="@style/DetalheFontStyle"
             android:textColor="@color/md_black_1000_75"/>

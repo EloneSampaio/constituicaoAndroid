@@ -20,14 +20,11 @@
 
         <fr.arnaudguyon.smartfontslib.FontTextView
             android:text="Artigo"
-            android:layout_width="70dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:id="@+id/artigo_numero"
             android:textSize="20sp"
-            android:gravity="center"
-            style="@style/DetalheFontStyle"
-            android:textColor="@android:color/white"
-            android:background="?attr/colorPrimary" />
+            style="@style/DetalheFontStyle"/>
 
         <fr.arnaudguyon.smartfontslib.FontTextView
             android:text="Titulo"

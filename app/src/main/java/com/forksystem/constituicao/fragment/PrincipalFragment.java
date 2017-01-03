@@ -38,8 +38,6 @@ public class PrincipalFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        MainActivity.activity.getSupportActionBar().setTitle(R.string.app_name);
-        MainActivity.toggle.syncState();
 
 
         try {
